@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- bai 1 -->
+    <div class="bai1">
+        <div class="container">
+            <h1>Bai 1</h1>
+            <div class="content">
+                <input type="number" id="luongNgay" placeholder="Nhập lương một ngày" />
+                <input type="number" id="ngay" placeholder="Nhập số ngày" />
+            </div>
+            <button onclick="tinhTong()">Tính Lương</button>
+            <div class="consequence">
+                <div>
+                    <i class="fa fa-hand-point-right"></i>
+                </div>
+
+                <p id="ketqua"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- bai 2 -->
+    <div class="bai2">
+        <div class="container">
+            <h1>Bai 2</h1>
+            <div class="content">
+                <input type="number" id="monA" placeholder="Nhap mon 1">
+                <input type="number" id="monB" placeholder="Nhap mon 2">
+                <input type="number" id="monC" placeholder="Nhap mon 3">
+                <input type="number" id="monD" placeholder="Nhap mon 4">
+                <input type="number" id="monE" placeholder="Nhap mon 5">
+            </div>
+            <button onclick="tinhTrungBinh()">Tính trung bình</button>
+            <div class="consequence">
+                <div>
+                    <i class="fa fa-hand-point-right"></i>
+                </div>
+
+                <p id="ketqua2"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- bai 3 -->
+    <div class="bai3">
+        <div class="container">
+            <h1>Bài 3</h1>
+            <div class="content">
+                <input type="number" id="usd" placeholder="Nhập số tiền usd">
+            </div>
+            <button onclick="quyDoi()">Quy đổi </button>
+            <div class="consequence">
+                <div>
+                    <i class="fa fa-hand-point-right"></i>
+                </div>
+
+                <p id="ketqua3"></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- bai 4 -->
+     <div class="bai4">
+        <div class="container">
+            <h1>Bài 4</h1>
+            <div class="content">
+                <input type="number" id="chieuDai" placeholder="Nhập chiều dài hình chữ nhật">
+                <input type="number" id="chieuRong" placeholder="Nhập chiều rộng hình chữ nhật">
+            </div>
+            <button onclick="tinh()">Tính</button>
+            <div class="consequence">
+                <div>
+                    <i class="fa fa-hand-point-right"></i>
+                </div>
+
+                <p id="ketqua4"></p>
+            </div>
+        </div>
+    </div>
+    <div class="bai5">
+        <div class="container">
+            <h1>Bài 5</h1>
+            <div class="content">
+                <input type="number" id="kiSo" placeholder="Nhập số có 2 chữ số">
+            </div>
+            <button onclick="kiSo()">Tính Tổng</button>
+            <div class="consequence">
+                <div>
+                    <i class="fa fa-hand-point-right"></i>
+                </div>
+
+                <p id="ketqua5"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
