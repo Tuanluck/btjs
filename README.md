@@ -78,9 +78,3 @@ Nếu bạn cũng đang học JavaScript, hãy clone dự án về và thử là
 
 ---
 
-### ✨ Cải tiến thực hiện
-- Cải thiện bố cục với các phần rõ ràng hơn (thêm "Cách sử dụng" và "Khuyến khích").
-- Định dạng Markdown đồng nhất, sử dụng tiêu đề phụ và khoảng cách hợp lý.
-- Sắp xếp "Ghi chú thêm" thành danh sách để dễ đọc.
-- Thêm ngày hiện tại (01:19 AM +07, Thứ Ba, 05/08/2025) nếu cần:  
-  - **Cập nhật lần cuối:** 01:19 AM +07, Thứ Ba, 05/08/2025.
