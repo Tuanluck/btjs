@@ -35,12 +35,17 @@ btjs/
 ├── css/
 │   └── style.css       # Giao diện đơn giản cho trang index hoặc bài tập
 ├── js/
-│   └── index.js            # File JavaScript cho từng bài tập
+│   └── *.js            # File JavaScript cho từng bài tập
+├── bai1.html           # Bài 1: Biến và toán tử
+├── bai2.html           # Bài 2: Câu điều kiện
+├── bai3.html           # Bài 3: Vòng lặp
+├── bai4.html           # Bài 4: DOM cơ bản
+├── bai5.html           # Bài 5: Xử lý sự kiện
+├── ...
 └── README.md           # File mô tả dự án (bạn đang đọc)
-
+```
 ---
 
----
 ## 🛠️ Cách sử dụng
 
 Nếu bạn muốn tải và thử nghiệm dự án trên máy cá nhân:
