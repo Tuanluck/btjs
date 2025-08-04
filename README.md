@@ -37,8 +37,10 @@ btjs/
 ├── js/
 │   └── index.js            # File JavaScript cho từng bài tập
 └── README.md           # File mô tả dự án (bạn đang đọc)
+
 ---
 
+---
 ## 🛠️ Cách sử dụng
 
 Nếu bạn muốn tải và thử nghiệm dự án trên máy cá nhân:
